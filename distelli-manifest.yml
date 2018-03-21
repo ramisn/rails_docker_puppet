@@ -1,4 +1,4 @@
-ramisn/rails_docker_puppet:
+ramisn/rails_docker_puppet_docker:
   PkgInclude:
     - '*'
   PreInstall:
