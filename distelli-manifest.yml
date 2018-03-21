@@ -4,8 +4,8 @@ ramisn/rails_docker_puppet_docker:
   PreInstall:
     - echo "Starting PreInstall"
     # Uncomment this section after the first deployment
-    #- cd /distelli/envs/$DISTELLI_ENV
-    #- sudo /usr/local/bin/docker-compose -p app down
+    - cd /distelli/envs/$DISTELLI_ENV
+    - sudo /usr/local/bin/docker-compose -p app down
   Start:
     - cd $DISTELLI_INSTALLHOME
     - echo "Start Application"
